@@ -68,6 +68,7 @@ build_options = {
         ("@CMAKE_PREFIX_PATH@/lib/liblzma.so", ""),
         ("@CMAKE_PREFIX_PATH@/lib/libnlopt.so", ""),
         ("@CMAKE_PREFIX_PATH@/lib/libopenblas.so", ""),
+        ("@CMAKE_PREFIX_PATH@/lib/libopenblasp-r0.3.13.so", ""),
         ("@CMAKE_PREFIX_PATH@/lib/libopenctm.so", ""), # For opening .CTM files
         ("@CMAKE_PREFIX_PATH@/lib/libQt5Charts.so", ""),
         ("@CMAKE_PREFIX_PATH@/lib/libQt5Concurrent.so", ""),

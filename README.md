@@ -200,7 +200,7 @@ Make sure, that the PYTHONPATH can find dist-packages.
 
 ```shell
 # Clone the repo
-git clone http://github.com/Ultimaker/cura-build.git
+git clone http://github.com/vfrisach/cura-build.git
 cd cura-build
 
 # Create a build directory

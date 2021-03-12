@@ -24,7 +24,7 @@ endif()
 string(REPLACE " " "_" CPACK_FILE_NAME_NO_SPACES "${CPACK_PACKAGE_NAME}")
 
 set(CPACK_PACKAGE_VENDOR "Ultimaker B.V.")
-set(CPACK_PACKAGE_HOMEPAGE_URL "https://github.com/Ultimaker/Cura")
+set(CPACK_PACKAGE_HOMEPAGE_URL "https://github.com/vfrisach/Cura")
 
 # MSI only supports version format like "x.x.x.x" where x is an integer from 0 to 65534
 set(CPACK_PACKAGE_VERSION_MAJOR ${CURA_VERSION_MAJOR})

@@ -18,7 +18,7 @@ set(CPACK_PACKAGE_ICON ${CMAKE_SOURCE_DIR}\\\\packaging\\\\cura.ico)
 
 set(CPACK_NSIS_MENU_LINKS
     "https://ultimaker.com/en/support/software" "Online Documentation"
-    "https://github.com/vfrisach/cura" "Development Resources"
+    "https://github.com/vfrisach/cura-private" "Development Resources"
 )
 
 set(CPACK_NSIS_MUI_WELCOMEFINISHPAGE_BITMAP ${CMAKE_SOURCE_DIR}\\\\packaging\\\\cura_banner_nsis.bmp)    # note: fails with forward '/'

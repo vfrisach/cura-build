@@ -6,7 +6,7 @@ option(CURA_ENABLE_DEBUGMODE "Enable crash handler and other debug options in Cu
 string(REPLACE ";" "," _cura_no_install_plugins "${CURA_NO_INSTALL_PLUGINS}")
 
 ExternalProject_Add(Cura
-    GIT_REPOSITORY https://github.com/vfrisach/Cura
+    GIT_REPOSITORY https://github.com/vfrisach/Cura-private
     GIT_TAG origin/${CURA_BRANCH_OR_TAG}
     GIT_SHALLOW 1
     STEP_TARGETS update
